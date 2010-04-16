@@ -1,0 +1,19 @@
+ToDo:
+
+1. figure out what we want the site to do
+
+2. figure out how to store the data
+
+3. make the data model
+
+4. make the object model
+
+5. make the wire frames
+
+6. make a rudimentary timeframe for when stuff will be done, and who is doing it
+
+some ideas for #1:
+
+game theory generator.  sounds complicated, but any easy thing to do.  based on pot odds, determine the percentage of time that a certain action should be done (say bluffing the river) to make it non-exploitable.  then run a random-number generator that uses the calculated percentage to determine if we should bluff this time.  input should be say...pot size and bet size.  output should be game-theory optimal percentage, and a YES/NO decision.
+
+basic poker statistic aggregator.  track VPIP (voluntarily put money in pot), preflop raise, 3bet percentage, etc etc.
